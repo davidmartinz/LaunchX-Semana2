@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Pastelandia - ¡La tierra del sabor dulce!</title>
+  </head>
+  <body>
+<!-- navegacion -->
+<div class="container-fluid">
+    <nav class="navbar fondoPastel">
+      <a class="navbar-brand">
+        <img src="/img/default-monochrome-white.svg" alt="" width="200px" class="d-inline-block align-text-top">
+      </a>
+      <form class="d-flex">
+        <a href="/index.html"<button class="btn btn-light" type="button botones">Inicio</button></a>
+        <a href="/hacerpedido.html"<button class="btn btn-light botones" type="button">Hacer un pedido</button></a>
+        <a href="/pedidos.html"><button class="btn btn-light botones" type="button">Ver pedidos realizados</button></a>
+      </form>
+    </nav>
+</div>
+<!-- fin de navegacion -->
+<div class="container my-5">
+    <h1>Haz tu pedido aqui</h1>
+    
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">  
+          <label for="email">Correo electronico</label>
+          <input type="email" class="form-control" id="email" placeholder="juan@correo.com">
+          <label for="telefono">Telefono</label>
+          <input type="phone" class="form-control" id="telefono" placeholder="5511223344">
+        </div>
+        <div class="form-group">
+          <label for="numeroPasteles">Cantidad de Pasteles</label>
+          <select class="form-control" id="numeroPasteles">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="saborPastel">Elije tu sabor</label>
+          <select multiple class="form-control" id="saborPastel">
+            <option>Chocolate 10 personas $ 500</option>
+            <option>Nuez 10 personas $ 500</option>
+            <option>Fresa 10 personas $ 500</option>
+            <option>Vainilla 10 personas $ 500</option>
+            <option>Zarzamora 10 personas $ 500</option>
+            <option>Chocolate 6 personas $ 300</option>
+            <option>Nuez 6 personas $ 300</option>
+            <option>Fresa 6 personas $ 300</option>
+            <option>Vainilla 6 personas $ 300</option>
+            <option>Zarzamora 6 personas $ 300</option>
+            <option>Chocolate 4 personas $ 250</option>
+            <option>Nuez 14 personas $ 250</option>
+            <option>Fresa 4 personas $ 250</option>
+            <option>Vainilla 4 personas $ 250</option>
+            <option>Zarzamora 4 personas $ 250</option>
+          </select>
+        </div>
+        <hr>
+        <label for="saborPastel">Toppings extra $100 c/u </label><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Lunetas </label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Chocolate extra</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+            <label class="form-check-label" for="inlineCheckbox3">Crema Pastelera</label>
+          </div>
+          <hr>
+          <label for="saborPastel">Escoge tus adicionales</label><br>
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Mensaje escrito en chocolate  $ 90 </label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Vela decorativa $ 40</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Tarjeta de felicitaciones $40 </label>
+            </div>
+            <hr>
+          <div class="form-group">
+            <label for="observaciones">Observaciones - gracias por ser específico ;)</label>
+            <textarea class="form-control" id="observaciones" rows="5"></textarea>
+          </div>
+        <p>
+            Para confirmar tu pedido recibirás una llamada de nuestro personal durante el dia de hoy para confirmar tu pedido.
+        </p>
+        <input class="btn botonprincipal btn-lg formulario" type="submit" value="ENVIAR">
+      </form>
+<!-- formulario -->
+<!-- fin de formulario-->
+    <!-- footer -->
+    <br>
+
+  <div class="row align-items-md-stretch">
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-white bg-dark rounded-3">
+        <h2>Contactanos</h2>
+        <p>Estamos disponibles de 8 a 8 pm los 365 días del año <br> en Av. Benito Juarez 368, Colonia Independencia. <br> Alcaldía Miguel Hidalgo, en CDMX.<br> Nuestro telefono es 55 56 58 11 11</p>
+        <a href=""><button class="btn btn-outline-light" type="button">Llámanos</button></a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.222709711354!2d-73.9922577844008!3d40.757126142790014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4065fd233867a891%3A0x5e79b3ec2d17834!2sCarlo&#39;s%20Bakery!5e0!3m2!1ses-419!2smx!4v1646331103451!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+  </div>
+  <!-- footer final -->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <span class="text-muted">© 2022 Pastelandia - La tierra del sabor</span>
+  </footer>
+    <!--  Popper & Bootstrap JS, incluir en todas las paginas -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
